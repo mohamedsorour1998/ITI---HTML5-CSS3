@@ -4,10 +4,11 @@ audlink2 = document.getElementById("audlink2");
 audlink3 = document.getElementById("audlink3");
 audlink4 = document.getElementById("audlink4");
 
-audlink1.addEventListener("click", () => {
-  audioPlayer.src =
-    "https://cdn.pixabay.com/download/audio/2023/01/18/audio_43b48c0a90.mp3?filename=something-about-you-marilyn-ford-135781.mp3&g-recaptcha-response=03AD1IbLDdxMgrGhHVs_wFctIDJJuJiElNNeJVqczJdEhkRJRiW-cFeNQZEEtTLL6avtUNSDi7D6kCphTi6Ii1wXavAbN9M4u45CmKejuruxwkRee6ossrNsvFAyU_qjKJF5o_-s2i6jXooQiUKW6EDFEaYQaW-OCXlN749JeZVFeqHjs0OXy9cO9vhOtqu7-4YpPC25bZD1MFGqOpT0JGnmdMGkg-Sj7u1WkHVO6PiU-VRcm8jvdz5nt4oMufeWs_k2c3B9ALzcC4llGAGw6CoSOFi5BUfaoMF5WoJaR0HwnugiRI2md00baUKkzy2pUaoKrb2PfauLjDYaJDdeVZ29v2uFBcBqjSg2laJhRCgteWuZw3Dg9pkHBd6OC3f-chQ_BuHdWz5oz4JGUo4uVy-jndVEEjsOl-wJ7fhgRVzwWYwAQbLHb3zOcPDptNLQJSlPWn1QiykEuM6h9VSJRAZW0AScDxE--24aZ2ljieyEejAU03oOzN71o&remote_template=1";
-
+audlink1.addEventListener("click", (e) => {
+  // audioPlayer.src =
+  //   "https://cdn.pixabay.com/download/audio/2023/01/18/audio_43b48c0a90.mp3?filename=something-about-you-marilyn-ford-135781.mp3&g-recaptcha-response=03AD1IbLDdxMgrGhHVs_wFctIDJJuJiElNNeJVqczJdEhkRJRiW-cFeNQZEEtTLL6avtUNSDi7D6kCphTi6Ii1wXavAbN9M4u45CmKejuruxwkRee6ossrNsvFAyU_qjKJF5o_-s2i6jXooQiUKW6EDFEaYQaW-OCXlN749JeZVFeqHjs0OXy9cO9vhOtqu7-4YpPC25bZD1MFGqOpT0JGnmdMGkg-Sj7u1WkHVO6PiU-VRcm8jvdz5nt4oMufeWs_k2c3B9ALzcC4llGAGw6CoSOFi5BUfaoMF5WoJaR0HwnugiRI2md00baUKkzy2pUaoKrb2PfauLjDYaJDdeVZ29v2uFBcBqjSg2laJhRCgteWuZw3Dg9pkHBd6OC3f-chQ_BuHdWz5oz4JGUo4uVy-jndVEEjsOl-wJ7fhgRVzwWYwAQbLHb3zOcPDptNLQJSlPWn1QiykEuM6h9VSJRAZW0AScDxE--24aZ2ljieyEejAU03oOzN71o&remote_template=1";
+  // e.target.src = "music/1.mp3";
+  audioPlayer.src = "music/1.mp3";
   audioPlayer.play();
 });
 audlink2.addEventListener("click", () => {
