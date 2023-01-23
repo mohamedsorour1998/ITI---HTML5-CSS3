@@ -4,9 +4,52 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Art Board</title>
     <link rel="stylesheet" href="./css/stylesheet.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="colorpicker">
+        <label for="colorpicker">Color Picker for fill style:</label>
+        <input type="color" id="cpf" />
+        <label for="colorpicker">Color Picker for stroke style:</label>
+        <input type="color" id="cps" />
+      </div>
+
+      <div class="buttons">
+        <a href="#" id="line"
+          ><img
+            src="https://as2.ftcdn.net/v2/jpg/03/08/76/71/1000_F_308767151_bcvjwxdL1ZI7Lb5QyQ978HmBCxr0R9mt.jpg"
+            alt=""
+        /></a>
+        <a href="#" id="freeline"
+          ><img
+            src="https://as1.ftcdn.net/v2/jpg/05/37/35/70/1000_F_537357028_95u7n5C13UbbM8Tq5DDuKWfjGvsvuXbs.jpg"
+            alt=""
+        /></a>
+        <a href="#" id="rect"
+          ><img
+            src="https://as2.ftcdn.net/v2/jpg/02/91/96/99/1000_F_291969966_UIKZEJA2rYloQH6924nPWj1z58MxmWx7.jpg"
+            alt=""
+        /></a>
+        <a href="#" id="circ"
+          ><img
+            src="https://as1.ftcdn.net/v2/jpg/02/32/21/88/1000_F_232218855_LjgMzFdi7sjQBNKESS6leyRFgke5knEw.jpg"
+            alt=""
+        /></a>
+        <a href="#" id="eraser"
+          ><img
+            src="https://as2.ftcdn.net/v2/jpg/01/58/96/77/1000_F_158967704_MG9cvGqim2iSDSTQu5v1SV1O1Ih0mTcy.jpg"
+            alt=""
+        /></a>
+      </div>
+      <canvas
+        id="canvas"
+        width="500px"
+        height="500px"
+        style="border: 3px solid #000000"
+      ></canvas>
+    </div>
+  </body>
   <script src="./js/js.js"></script>
 </html>

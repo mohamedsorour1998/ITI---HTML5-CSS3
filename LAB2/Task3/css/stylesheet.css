@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: blanchedalmond;
+}
+.container {
+  display: flex;
+}
+.buttons {
+  position: absolute;
+  top: 1rem;
+  left: 43rem;
+}
+#rect img {
+  width: 100x;
+  height: 100px;
+}
+#line img {
+  width: 100px;
+  height: 100px;
+}
+#circ img {
+  width: 100px;
+  height: 100px;
+}
+#freeline img {
+  width: 100px;
+  height: 100px;
+}
+#eraser img {
+  width: 100px;
+  height: 100px;
+}
+canvas {
+  position: absolute;
+  top: 15rem;
+  left: 43rem;
+}
+.colorpicker {
+  position: absolute;
+  top: 20rem;
+  left: 8rem;
+}
